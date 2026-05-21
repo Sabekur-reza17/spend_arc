@@ -1,0 +1,37 @@
+{
+  "@@locale": "en",
+  "appTitle": "SpendArc",
+  "addExpenseTitle": "Add Expense",
+  "categoryLabel": "Category",
+  "amountLabel": "Amount",
+  "amountPrefix": "$ ",
+  "saveButton": "Save",
+  "categoryRequired": "Select a category",
+  "amountInvalid": "Enter a valid amount greater than 0",
+  "errorLoadingTransactions": "Error loading transactions",
+  "failedToAdd": "Failed to add",
+  "failedToDelete": "Failed to delete",
+  "failedToClear": "Failed to clear data",
+  "unknownCategory": "Unknown",
+  "clearAllData": "Clear all data",
+  "clearAllConfirmTitle": "Clear all transactions?",
+  "clearAllConfirmMessage": "This will permanently remove all expenses from this device.",
+  "cancel": "Cancel",
+  "clear": "Clear",
+  "categoryGroceries": "Groceries",
+  "categoryFood": "Food",
+  "categoryTransport": "Transport",
+  "categoryBills": "Bills",
+  "categoryEntertainment": "Entertainment",
+  "categoryHealth": "Health",
+  "categoryShopping": "Shopping",
+  "categoryOther": "Other",
+  "amountDisplay": "${amount}",
+  "@amountDisplay": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  }
+}
