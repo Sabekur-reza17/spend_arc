@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -29,7 +28,7 @@ class MainApp extends HookConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
       onGenerateTitle: (context) => AppLocalizations.of(context)!.appTitle,
-      debugShowCheckedModeBanner: kDebugMode,
+      debugShowCheckedModeBanner: false,
       theme: AppThemes.lightTheme,
       darkTheme: AppThemes.darkTheme,
       themeMode: ThemeMode.system,

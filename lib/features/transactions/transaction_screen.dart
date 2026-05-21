@@ -13,6 +13,7 @@ import '../../features/stats/transaction_stats.dart';
 import '../../core/app_router.gr.dart';
 import '../../l10n/app_localizations.dart';
 import '../../l10n/l10n_extensions.dart';
+import '../../utilities/date_format_util.dart';
 import 'add/add_transaction_input.dart';
 import 'transaction_state.dart';
 import 'transaction_view_model.dart';
@@ -128,7 +129,7 @@ class TransactionScreen extends BaseHookConsumerWidget<TransactionState, Transac
                             },
                             child: ListTile(
                               title: Text(l10n.categoryName(transaction.category)),
-                              subtitle: Text(transaction.date.toIso8601String()),
+                              subtitle: Text(DateFormatUtil.formatDateTime(transaction.date)),
                               trailing: Text(
                                 l10n.amountDisplay(transaction.amount.toStringAsFixed(2)),
                               ),
